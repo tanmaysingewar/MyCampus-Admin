@@ -171,7 +171,7 @@ function Home() {
                   <input type='text' placeholder='Join Link' onChange={handleChange("googleFormLink")} value={googleFormLink} style={inputStyles} />
                 </div>
                 <div  style={{display: 'flex' , alignSelf : "left", marginBottom : 20}}>
-                  <input type="checkbox"  style={{marginTop : "19px", marginRight : "10px"}} onChange={handleChange("campus")} value={false} /> <p>Collage amnnouncement</p>
+                  <input type="checkbox"  style={{marginTop : "19px", marginRight : "10px"}} onChange={handleChange("campus")} value={false} /> <p>College amnnouncement</p>
                 </div>
                 <div  style={{display: 'flex' ,justifyContent: "right" , alignSelf : 'center'}}>
                   <button style={{backgroundColor : 'black', color : '#fff', border  :'none', padding: '8px 30px', borderRadius : 20, outline  : 'none' }} onClick={() => onSubmit()} >Submit</button>
